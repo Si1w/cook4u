@@ -1,0 +1,559 @@
+# Marks & Spencer Food Catalog
+
+URL format: `https://www.marksandspencer.com/food/l/{category}/{subcategory}/{subsubcategory}?searchRedirect={query}`
+
+Slugs are lowercase with spaces replaced by hyphens (e.g. "Fruit & Vegetables" → `fruit-and-vegetables`).
+
+## Common Categories for Cooking
+
+### Fruit & Vegetables
+- Fresh Fruit
+  - Apples
+  - Bananas
+  - Berries & Cherries
+  - Citrus Fruit
+    - Easy Peelers
+    - Lemons
+    - Limes
+    - Oranges
+  - Exotic Fruit
+  - Grapes
+  - Melons
+  - Organic Fruit
+  - Pears
+  - Pineapples
+  - Prepared Fruit
+  - Stone Fruit
+    - Mangos
+    - Peaches & Nectarines
+    - Plums & Apricots
+- Fresh Herbs
+- Fresh Vegetables
+  - Asparagus
+  - Avocados
+  - Broccoli & Cauliflower
+  - Celery
+  - Chilli
+  - Courgette & Aubergine
+  - Cucumber
+  - Fresh Beans
+  - Garlic
+  - Ginger
+  - Leafy Greens
+    - Cabbage
+    - Kale
+    - Pak Choi
+    - Spinach
+  - Leeks
+  - Lettuce
+  - Loose Vegetables
+  - Mushrooms
+  - Onions
+  - Organic Vegetables
+  - Peas & Corn
+  - Peppers
+  - Potatoes
+  - Root Vegetables
+    - Beetroot
+    - Carrots
+    - Parsnips
+    - Radishes
+    - Swede
+  - Spring Onions
+  - Squash & Sweet Potatoes
+  - Tomatoes
+- Salads
+  - Premade Salads
+  - Salad Bags
+  - Salad Potatoes
+  - Side Salads
+    - Coleslaw
+    - Potato Salads
+
+### Meat
+- Barbecue Meat
+- Beef
+  - Beef Joints
+  - Burgers & Grill
+  - Meatballs
+  - Organic Beef
+  - Steaks
+  - Veal
+- Black Pudding & Haggis
+- Lamb
+  - Lamb Chops & Fillets
+  - Leg of Lamb
+  - Rack of Lamb & Steaks
+- Meat Alternatives
+- Mince
+  - Beef Mince
+  - Lamb Mince
+- Pork
+  - Bacon & Lardons
+  - Gammon
+  - Pork Chops
+  - Pork Loin
+- Sausages
+- Slow Cooked Meat
+- Venison & Wild Game
+
+### Poultry
+- Chicken
+  - Breaded Chicken
+  - Chicken Breast
+  - Chicken Drumsticks, Thighs & Legs
+  - Whole Chicken
+- Duck
+- Turkey
+
+### Fish & Seafood
+- Battered Fish
+- Breaded Fish
+- Fishcakes
+- Oily Fish
+  - Herring
+  - Mackerel
+- Prawns
+- Salmon
+- Scallops & Mussels
+- Sea Bass & Sea Bream
+- Smoked Fish
+- Smoked Salmon
+- Tuna & Trout
+- White Fish
+  - Cod
+  - Haddock
+
+### Dairy
+- Butter
+  - Block Butter
+  - Flavoured Butter
+  - Margarine & Spreadable Butter
+  - Salted Butter
+- Cheese
+  - Blue Cheese
+  - Cheddar
+    - Mature & Extra Mature Cheddar
+    - Medium Cheddar
+    - Mild Cheddar
+    - Speciality Cheddar
+  - Cheese Alternatives & Dairy Free
+    - Vegan Cheese
+  - Cheese Selections
+  - Continental Cheese
+    - French Cheese
+    - Greek Cheese
+    - Italian Cheese
+  - Feta
+  - Fruit & Flavoured Cheese
+  - Halloumi
+  - Hard Cheese
+  - Mozzarella
+  - Parmesan
+  - Sliced & Grated Cheese
+  - Soft Cheese
+    - Cheese Spreads
+    - Cottage Cheese
+    - Goat & Sheep Cheese
+- Cream
+  - Clotted, Soured & Aerosol Cream
+  - Creme Fraiche
+  - Single & Double Cream
+- Milk
+  - Fresh Milk
+  - Lactose Free Milk
+  - Milkshakes & Flavoured Milk
+  - Organic Milk
+- Milk Alternatives
+  - Nut Milk
+  - Oat Milk
+  - Soya Milk
+- Yogurt
+  - Flavoured Yogurt
+  - Greek & Greek-Style Yogurt
+  - Kefir Yogurt
+  - Kids' Yogurt
+  - Protein Yogurt
+  - Skyr Yogurt
+
+### Eggs
+- Free Range Eggs
+- Organic Eggs
+- Speciality Eggs
+
+### Deli
+- Dips
+- Fish & Seafood Antipasti
+- Fresh Olives
+- Meat Antipasti
+- Pate
+- Sandwich Fillings
+- Savoury Pastries
+  - Pasties & Slices
+  - Quiches & Tarts
+  - Sausage Rolls
+  - Savoury Pies
+- Scotch Eggs
+- Vegetarian Antipasti
+
+### Food Cupboard
+- Baking Ingredients
+  - Baking Mixes
+  - Baking Powder & Raising Agents
+  - Cake Decorating
+    - Cake Decorations
+    - Cake Icing
+    - Sprinkles & Chocolate Chunks
+  - Cooking Chocolate & Cocoa
+  - Flour
+    - Plain Flour
+    - Self Raising Flour
+    - Wholemeal Flour
+  - Lemon & Lime Juice
+  - Sugar
+- Biscuits
+  - Biscuit Bags
+  - Chocolate Biscuits
+  - Cookies
+  - Digestive Biscuits
+  - Everyday Biscuits
+  - Free From Biscuits
+  - Jaffa Cakes & Tea Cakes
+  - Luxury Biscuits
+  - Shortbread
+  - Wafers
+- Breakfast Cereal
+  - Cereal Snack Bars
+  - Family Cereal
+  - Free From Cereal
+  - Granola & Muesli
+  - On the Go Breakfast
+  - Porridge & Oats
+- Cans Tins & Packets
+  - Beans
+  - Chickpeas & Lentils
+  - Coconut Milk & Cream
+  - Couscous
+  - Long-Life Ready Meals
+  - Meat & Corned Beef
+  - Pulses
+  - Tinned Fish
+  - Tinned Fruit
+  - Tinned Soup
+  - Tinned Tomatoes
+  - Tinned Vegetables
+- Chocolate
+  - Chocolate Bars
+  - Chocolate Boxes
+  - Chocolate Buttons
+  - Sharing Bags
+  - Swiss Chocolate
+  - Vegan & Dairy-Free Chocolate
+- Condiments
+  - Asian Inspired Sauces
+  - Chutneys
+  - Salad Dressings & Vinaigrettes
+  - Table Sauces
+    - Barbecue Sauce
+    - Ketchup
+    - Mayonnaise
+    - Mustard
+- Cooking Ingredients
+  - Breadcrumbs & Stuffing Mixes
+  - Chopped Ingredients
+  - Cooking Fat
+  - Oils
+    - Cooking Oil
+    - Olive Oil
+  - Olives & Jarred Goods
+  - Pickled Foods
+  - Salt & Pepper
+  - Seasonings
+  - Spices & Dried Herbs
+  - Stocks & Gravy
+  - Vinegars
+- Cooking Sauces
+  - Cooking Pastes
+  - Curry Sauces
+  - Marinades
+  - Pasta Sauces
+- Crisps
+  - Multipacks
+  - Popped Chips
+  - Sharing Bags
+  - Tortilla & Pitta Chips
+- Ice Cream Cones Sauces & Toppings
+- Meal Kits
+- Noodles
+- Nuts & Seeds
+  - Chocolate Covered Nuts
+  - Mixed Nuts
+  - Natural Nuts
+  - Roasted Nuts
+- Pasta
+- Rice
+  - Basmati Rice
+  - Brown Rice
+  - Long Grain Rice
+  - Microwave Rice
+  - Risotto Rice
+- Savoury Nibbles
+  - Biscuits for Cheese
+  - Breadsticks
+  - Crackers
+  - Crispbreads
+- Snacks
+  - Fruit Snacks
+  - Jerky
+  - Popcorn
+  - Rice Cakes
+  - Snack Pots
+  - World Snacks
+- Spreads
+  - Chocolate & Sweet Spreads
+  - Conserves & Preserves
+  - Honey
+  - Jam
+  - Marmalade
+  - Nut Butters
+  - Syrups
+- Sweets
+  - Chewing Gum & Mints
+  - Chewy Sweets
+  - Fudge & Toffee
+  - Jelly Sweets
+
+### Bakery & Cakes
+- Bread
+  - Artisan Bread
+  - Bagels
+  - Bread Rolls
+  - Brioche
+  - Ciabattas & Baguettes
+  - Flatbreads
+  - Granary, Spelt & Oat Bread
+  - Naan Bread
+  - Pitta Bread
+  - Rye & Soda Bread
+  - Seeded Bread
+  - Sourdough Bread
+  - Tiger Bread
+  - White Bread
+  - Wholemeal & Brown Bread
+  - Wraps
+- Cakes Buns & Doughnuts
+  - Cake Slices & Bars
+  - Cupcakes
+  - Doughnuts
+  - Fruit Loaves
+  - Hot Cross Buns
+  - Iced Buns
+  - Loaf Cakes
+  - Mini Bites
+  - Muffins
+  - Pastries
+    - Croissants
+    - Pancakes & Crepes
+    - Sweet Pies & Tarts
+  - Scones
+  - Sponge Rolls
+  - Waffles & Crumpets
+  - Whole Cakes
+- In-Store Bakery
+
+### Frozen Food
+- Frozen Chips
+- Frozen Croissants & Pastries
+- Frozen Desserts
+  - Frozen Cheesecake
+  - Frozen Cookies
+  - Frozen Roulades
+  - Frozen Sweet Pies & Tarts
+- Frozen Fish
+  - Battered Fish
+  - Breaded Fish
+  - Fish Cakes
+  - Fish Fillets
+  - Fish Fingers
+  - Fish Pies
+- Frozen Fruit
+- Frozen Herbs
+- Frozen Meat
+  - Frozen Beef
+  - Frozen Burgers
+  - Frozen Chicken
+  - Frozen Sausages
+- Frozen Party Food
+- Frozen Pastry
+- Frozen Pizzas & Garlic Bread
+- Frozen Potatoes
+- Frozen Prawns
+- Frozen Ready Meals
+- Frozen Rice
+- Frozen Sauces
+- Frozen Seafood
+- Frozen Vegetables
+- Ice Cream
+  - Frozen yogurt
+  - Ice Cream Cones & Bars
+  - Ice Cream Minis & Bites
+  - Ice Cream Tubs
+  - Ice Lollies
+  - Sorbet
+
+### Drinks
+- Alcoholic Drinks
+  - Beer
+    - Bitter, Stout & Porter
+    - IPA
+    - Lager
+    - No & Low Alcohol Beer
+    - Pale Ale
+  - Cider
+    - Apple Cider
+    - Pear Cider
+  - Cocktail Mixers & Syrups
+  - Ready Made Cocktails & Drinks
+  - Spirits
+    - Brandy & Cognac
+    - Gin
+    - Liqueurs & Aperitifs
+    - No & Low Alcohol Spirits
+    - Rum
+    - Tequila
+    - Vodka
+    - Whisky
+  - Wine
+    - Dessert Wine
+      - Madeira & Marsala
+      - Port
+      - Sherry
+    - No & Low Alcohol Wine
+    - Organic Wine
+    - Red Wine
+      - Bordeaux
+      - Cabernet Sauvignon
+      - Malbec
+      - Merlot
+      - Pinot Noir
+      - Rioja
+      - Shiraz
+    - Rose Wine
+    - Sparkling Wine
+      - Cava
+      - Champagne
+      - Prosecco
+    - White Wine
+      - Chardonnay
+      - Chenin Blanc
+      - Pinot Grigio
+      - Riesling
+      - Sauvignon Blanc
+- Hot Drinks
+  - Coffee
+  - Hot Chocolate
+  - Tea
+- Soft Drinks
+  - Cordials
+  - Fizzy Drinks
+  - Health Shots
+  - Iced Coffee
+  - Juice
+  - Kids' Drinks
+  - Presse
+  - Smoothies
+  - Squash
+  - Water
+
+## Other Categories
+
+### Ready to Eat Meats
+- Cooked Meats
+  - Cooked Beef
+  - Cooked Ham
+- Cured Meats
+- Ready to Eat Chicken
+
+### Food on the Move
+- Chilled Drinks
+- Ready to Eat Pasta & Salads
+- Sandwiches & Rolls
+- Snacks to Go
+  - Breakfast to Go
+  - Crisps to Go
+  - Fruit Pots
+  - Savoury Snacks to Go
+  - Sweet Snacks to Go
+- Sushi
+- Wraps
+
+### Chilled Desserts
+- Chilled Cakes
+- Chilled Cheesecakes
+- Chilled Pies & Tarts
+- Chilled Trifles
+- Crumbles
+- Custard & Cream Desserts
+- Dessert Pots
+- Jelly Fruit Pots
+- Meringues
+- Sponge Puddings
+
+### Ready to Cook
+- Flatbreads & Doughballs
+- Fresh Pasta
+- Fresh Sauces
+  - Fresh Pasta Sauces
+  - Gravy & Fresh Stocks
+- Fresh Soups
+  - Fresh Meat & Fish Soups
+  - Fresh Vegetable Soups
+- Garlic Bread & Slices
+- M&S Dine In
+- Pies
+- Pizzas
+- Prepared Vegetables & Sides
+- Ready Meals
+  - Asian Ready Meals
+  - Classic Ready Meals
+  - Fish Ready Meals
+  - Gluten Free Ready Meals
+  - Healthy Ready Meals
+  - Indian Ready Meals
+  - Italian Ready Meals
+  - Kids' Ready Meals
+  - Vegan & Vegetarian Ready Meals
+
+### Kids, Toddler & Baby Products
+- Baby Changing Products
+- Kids' Food & Snacks
+
+### Household
+- Bin Bags
+- Cleaning Products
+  - Air Fresheners
+  - Cleaning Gloves
+  - Cleaning Wipes
+  - Cloths, Sponges, Brushes & Scourers
+  - Dishwasher Products
+  - Kitchen & Oven Cleaners
+  - Laundry Products
+  - Surface Cleaners & Sprays
+  - Toilet & Bathroom Cleaners
+- Food Preparation & Storage
+  - Bags & Storage
+  - Foil, Cling Film & Greaseproof Paper
+  - Skewers & Cocktail Sticks
+  - Straws & Napkins
+- Kitchen Roll
+- Party & Decorations
+  - Bunting & Decorations
+  - Cake Candles
+  - Party Plates & Cups
+- Tissues & Wipes
+- Toilet Roll
+- Toiletries
+
+### Pet Supplies
+- Cat Treats
+- Dog Treats
